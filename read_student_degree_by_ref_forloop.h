@@ -14,7 +14,7 @@ void ReadStudentDegreeForLoop( float degreesR[100], int& length){
     //cout << "Enter a Degree:  \n";
     //int readedNumber;
 
-    for (int i = 0; i < length  ; i++)
+    for (int i = 0; i <= length -1 ; i++)
     {
         //cin >> degreesR[i];
        degreesR[i] =  ReadNumberPositiveInt("Enter a dgree : \n");

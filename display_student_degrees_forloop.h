@@ -6,7 +6,7 @@ void DisplayStudentDegreeForLoop( float Degrees[100], int length){
     // Save numebr of degrees
     cout << "You want to display only:  = " << length  <<  " degrees." << "\n";
 
-    for (int i = 0; i < length ; i++)
+    for (int i = 0; i <= length - 1; i++)
     {
         cout << "Degree No" <<  i + 1 << ": " <<  Degrees[i]  <<"\n";
     }

@@ -5,7 +5,7 @@ using namespace std;
 float AverageStudentDegreesForLoopFloat(float degreesA[100], int length){
 
     float sum = 0;
-    for (int i = 0; i < length - 1; i++)
+    for (int i = 0; i < length - 1 ; i++)
     {
         sum+= degreesA[i];  
     }
